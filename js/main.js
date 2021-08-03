@@ -9,16 +9,18 @@ AOS.init({
 	"use strict";
 
 
-	$(window).stellar({
-		responsive: true,
-		parallaxBackgrounds: true,
-		parallaxElements: true,
-		horizontalScrolling: false,
-		hideDistantElements: false,
-		scrollProperty: 'scroll'
-  });
+// 	$(window).stellar({
+// 		responsive: true,
+// 		parallaxBackgrounds: true,
+// 		parallaxElements: true,
+// 		horizontalScrolling: false,
+// 		hideDistantElements: false,
+// 		scrollProperty: 'scroll'
+//   });
+
   
-var scrollbtn = $('#button');
+  
+	var scrollbtn = $('#button');
 
 	$(window).scroll(function () {
 		if ($(window).scrollTop() > 300) {
@@ -76,27 +78,27 @@ var scrollbtn = $('#button');
 	});
 
 
-var onePageClick = function() {
+	var onePageClick = function() {
 
 
-	$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
-	event.preventDefault();
+		$(document).on('click', '#ftco-nav a[href^="#"]', function (event) {
+		event.preventDefault();
 
-	var href = $.attr(this, 'href');
+		var href = $.attr(this, 'href');
 
-	$('html, body').animate({
-		scrollTop: $($.attr(this, 'href')).offset().top - 70
-	}, 500, function() {
-		// window.location.hash = href;
-	});
-	});
+		$('html, body').animate({
+			scrollTop: $($.attr(this, 'href')).offset().top - 70
+		}, 500, function() {
+			// window.location.hash = href;
+		});
+		});
 
-};
+	};
 
-onePageClick();
+	onePageClick();
 
 
-$(document).on('click', '.arrow-container a[href^="#"]', function (event) {
+	$(document).on('click', '.arrow-container a[href^="#"]', function (event) {
 	    event.preventDefault();
 
 	    var href = $.attr(this, 'href');
@@ -113,18 +115,6 @@ $(document).on('click', '.arrow-container a[href^="#"]', function (event) {
    $.Scrollax();
 
     
-    
-    $(document).on('click', '.arrow-container a[href^="#"]', function (event) {
-	    event.preventDefault();
-
-	    var href = $.attr(this, 'href');
-
-	    $('html, body').animate({
-	        scrollTop: $($.attr(this, 'href')).offset().top - 70
-	    }, 500, function() {
-	    	// window.location.hash = href;
-	    });
-	});
     
     
     var contentWayPoint = function() {
