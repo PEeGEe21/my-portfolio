@@ -758,7 +758,7 @@
 
     .css-1lnncoo {
         padding: 1rem 0px;
-        cursor: pointer;
+        /* cursor: pointer; */
         width: 100%;
         position: relative;
     }
@@ -766,7 +766,7 @@
     .css-1lnncoo h4 {
         font-size: 1.25rem;
         font-family: var(--f-secondary);
-        color: rgb(92, 72, 215);
+        /* color: rgb(92, 72, 215); */
         font-weight: 500;
         line-height: 1.5;
         margin-bottom: 4px;
