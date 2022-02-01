@@ -60,7 +60,9 @@
     }
 
     .services-item{
-    box-shadow: 0 0 25px 0 rgb(29 25 0 / 25%)
+    box-shadow: 0 0 25px 0 rgb(29 25 0 / 25%);
+    background: #181818;
+    /* box-shadow: 0 10px 20px rgb(0 0 0 / 10%) */
     }
 
     .services-icon {
@@ -89,6 +91,15 @@
     border: 2px solid rgba(0, 5, 5, 0.5);
     transition: all 0.5s;
     }
+
+    .services-item-heading{
+        color: #fff;
+    }
+
+    .services-item-text{
+        color:#848484 ;
+    }
+    
 
     #ftco-nav {
     -ms-flex-direction: row;
