@@ -1285,6 +1285,10 @@
   background-color: #070a0d !important;
   color: #eeece8;
 }
+
+    .theme-dark .navbar-toggler {
+        background-color: #fff;
+}
     .theme-dark,
 .theme-dark body .bg-heroGray{
   background-color: #070a0d !important;
