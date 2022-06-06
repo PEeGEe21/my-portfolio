@@ -1,5 +1,12 @@
 /*headerrrr*/
+*{
+    outline-color: red !important;
+    outline-width: 2px !important;
+    
+}
 
+body{
+}
     
     a{
         text-decoration: none;
@@ -168,11 +175,15 @@
     height: 1px;
     background: rgba(0, 0, 0, 0.1);
     }
-    @media (max-width: 767.98px) {
+    @media (max-width: 991.98px) {
     .heading h2.lined:after,
     .heading h2.lined:before {
     display: none;
     }
+
+
+    }
+    @media (max-width: 767.98px) {
     .arrow-container .btn{
     font-size: 11px;    
     }
@@ -361,8 +372,8 @@
         vertical-align: top;
         max-width: 100%;
         backface-visibility: hidden;
-        /* object-fit: cover; */
-        /* height: 300px; */
+        object-fit: cover;
+        height: 300px;
     }
 
     .hover-img figcaption{
@@ -778,11 +789,16 @@
         justify-content: center;
     }
 
+    .css-1lnncoo .div-img img{
+        object-fit: contain;
+    }
     .css-1lnncoo .div-img{
         display: flex;
         align-items: center;
         justify-content: center;
         position: relative;
+        width: 100px;
+        margin: auto;
     }
 
     .css-1lnncoo img{
